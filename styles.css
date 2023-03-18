@@ -1,0 +1,210 @@
+/* COLOURS */
+/* #592d04 */
+/* #fff2cb */
+/* #f8b678 */
+
+body {
+    background-color: #fff2cb;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #592d04;
+}
+
+hr {
+    width: 5%;
+    color: gray;
+    border-top: dotted 5px;
+    margin: 25px auto;
+}
+
+
+/* HEAD SECTION */
+
+.top-head {
+    text-align: center;
+    font-family: cursive;
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 100;
+    color: #592d04;
+    padding: 5px 25px;
+
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+    border-radius: 30px;
+    padding: 0;
+    background-color: #592d04;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-head {
+    color: #743b07;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+
+.nav-bar a {
+    color: #f8b678;
+    padding: 3px 3px;
+    text-decoration: none;
+
+}
+
+.nav-bar a:hover {
+    color: white;
+}
+
+.nav-bar input {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 3px 17px;
+    width: 150px;
+}
+
+.nav-bar li {
+    float: left;
+    list-style: none;
+    margin: 15px 25px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.nav-bar ul {
+    overflow: auto;
+}
+
+.search {
+    float: right;
+    padding: 12px 55px;
+}
+
+.search i {
+    padding-left: 5px;
+    color: #f8b678;
+}
+
+.search i:hover {
+    color: white;
+}
+/* IMAGE SECTION */
+
+
+
+/* INTRO */
+
+.intro {
+    margin-bottom: 20px;
+    background-color: #fff2cb;
+}
+
+.intro-text {
+    text-align: center;
+    text-shadow: solid #592d04;
+}
+
+.intro-img {
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-right: 2rem;
+}
+
+.intro p {
+    font-size: 17px;
+}
+
+#intro-col-left {
+    padding: 5px 5px;
+}
+
+/* MENU SECTION */
+
+.menu {
+    background-color: rgb(249, 243, 243);
+    padding: 20px;
+}
+
+.menu-row {
+    display: flex;
+    flex-direction: row;
+}
+.menu-col {
+    width: 33.33%;
+    background-color: #f8b678;
+    margin: 5px auto;
+}
+
+.menu-head {
+    text-align: center;
+    color: #592d04;
+}
+
+.menu-col p {
+    color: #592d04;
+    text-align: center;
+    margin: 20px 65px;
+}
+
+.menu-img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50px;
+    border: solid black 2px;
+    display: block;
+}
+
+.menu-btn {
+    text-align: center;
+    margin: 15px auto;
+    display: block;
+    padding: 5px;
+}
+
+/* OFFER SECTION */
+
+.offers {
+    background-color: #fff2cb;
+    text-align: center;
+}
+
+.slide-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide-col {
+    width: 33%;
+}
+
+.slide-col:hover {
+    background-color: white;
+}
+
+.offer-text:hover {
+    color: #592d04;
+}
+
+.testimonial {
+    padding: 10px;
+}
+/* CONTACT SECTION */
+
+.contact {
+    background-color: white;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.contact i {
+    padding: 25px 20px 5px;
+}
